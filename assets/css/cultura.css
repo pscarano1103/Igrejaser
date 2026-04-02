@@ -1,0 +1,41 @@
+.cultura {
+  .container {
+    display: flex;
+    padding-top: 2rem;
+    gap: 10rem;
+    align-items: center;
+    margin-bottom: 5rem;
+
+    .cultura-info {
+      width: 50%;
+
+      p {
+        font-size: 1.7rem;
+        color: var(--preto);
+        padding-top: 1.5rem;
+        line-height: 145%;
+
+        &:first-child {
+          padding-top: 0rem;
+        }
+      }
+
+      .citacao {
+        border-left: 4px solid var(--destaque);
+        font-size: 1.8rem;
+        font-weight: var(--semibold);
+        font-style: italic;
+        padding: 0.5rem 1.6rem;
+        margin: 1.5rem 0;
+      }
+    }
+    .cultura-image {
+      width: 50%;
+
+      img {
+        border-radius: 1rem;
+        width: 100%;
+      }
+    }
+  }
+}

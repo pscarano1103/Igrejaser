@@ -1,0 +1,75 @@
+.missao {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6rem;
+    margin-bottom: 5rem;
+
+    .mission {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      background-color: var(--BGSection);
+      gap: 2rem;
+      border-radius: 2rem;
+
+      .mission-image {
+        img {
+          width: 100%;
+          border-top-left-radius: 2rem;
+          border-bottom-left-radius: 2rem;
+        }
+      }
+
+      .mission-info {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+        padding: 0 2rem;
+        color: var(--branco);
+
+        .title {
+          padding: 0;
+          font-size: 5.5rem;
+        }
+
+        p {
+          font-size: 2rem;
+        }
+
+        .citacao {
+          border-left: 4px solid var(--branco);
+          padding: 0.5rem 1.6rem;
+          font-size: 1.8rem;
+          font-weight: var(--semibold);
+          font-style: italic;
+        }
+      }
+    }
+
+    .vision {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+
+      .title {
+        font-size: 5.5rem;
+      }
+
+      p {
+        font-size: 2rem;
+        font-weight: var(--bold);
+        color: var(--destaque);
+      }
+
+      .citacao {
+        border-left: 4px solid var(--destaque);
+        font-size: 1.8rem;
+        font-weight: var(--semibold);
+        font-style: italic;
+        padding: 0.5rem 1.6rem;
+      }
+    }
+  }
+}
