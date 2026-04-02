@@ -1,0 +1,45 @@
+.menu {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all ease-in-out 0.5s;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.38rem 0;
+
+    .navbar {
+      .menu-opener {
+        display: none;
+      }
+
+      .logo {
+        img {
+          width: 7rem;
+          height: 7rem;
+        }
+      }
+    }
+
+    nav {
+      display: flex;
+      gap: 2.5rem;
+
+      a {
+        font-size: 2rem;
+        font-weight: var(--semibold);
+        color: var(--preto);
+      }
+    }
+  }
+}
+
+.menu.rowEffect {
+  background-color: var(--branco);
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}

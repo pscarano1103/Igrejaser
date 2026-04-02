@@ -4,46 +4,18 @@
   background-image: url(../images/altar.jpeg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.3);
-
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 1.5rem;
-
-    .navbar {
-      .menu-opener {
-        display: none;
-      }
-
-      .logo {
-        img {
-          width: 7rem;
-          height: 7rem;
-        }
-      }
-    }
-
-    nav {
-      display: flex;
-      gap: 2.5rem;
-
-      a {
-        font-size: 2rem;
-        font-weight: var(--semibold);
-        color: var(--preto);
-      }
-    }
-  }
+  display: flex;
+  justify-content: center;
 
   .hero-info {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 15rem;
-    gap: 3rem;
+
+    gap: 2.5rem;
     color: var(--branco);
 
     .title-info {
