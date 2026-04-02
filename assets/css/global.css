@@ -1,0 +1,24 @@
+@import url(fonts.css);
+@import url(base.css);
+@import url(hero.css);
+
+:root {
+  /*COLORS*/
+  --branco: #fffcfc;
+  --preto: #020202;
+  --destaque: #927d58;
+  --BGSection: #8b6f47;
+  --BGfooter: #2d2416;
+
+  /*Fonts*/
+  --FontPadrão: Montserrat;
+  --FontDestaque: Destaque;
+  --DestaqueBold: DestaqueBold;
+
+  /*Font Weight*/
+
+  --regular: 400;
+  --medium: 500;
+  --semibold: 600;
+  --bold: 700;
+}

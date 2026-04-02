@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-family: var(--FontPadrão);
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.title {
+  font-size: 6.5rem;
+  font-weight: var(--bold);
+  padding: 2rem 0;
+}

@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@font-face {
+  font-family: Destaque;
+  src: url(../fonts/MonumentExtended-Regular.otf);
+}
+
+@font-face {
+  font-family: DestaqueBold;
+  src: url(../fonts/MonumentExtended-Ultrabold.otf);
+}
