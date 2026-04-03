@@ -32,6 +32,11 @@
         font-size: 2rem;
         font-weight: var(--semibold);
         color: var(--preto);
+        transition: all ease 0.2s;
+
+        &:hover {
+          opacity: 0.3;
+        }
       }
     }
   }

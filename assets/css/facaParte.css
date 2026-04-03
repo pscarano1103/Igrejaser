@@ -1,0 +1,53 @@
+.facaparte {
+  height: calc(100vh - 10rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  background-color: var(--BGSection);
+  color: var(--branco);
+
+  p {
+    width: 70%;
+    text-align: center;
+    font-size: 3.2rem;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+
+    a {
+      padding: 3rem 4.5rem;
+      font-size: 3rem;
+      font-weight: var(--medium);
+      border-radius: 1rem;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .btn-saiba {
+      background-color: var(--branco);
+      color: var(--BGSection);
+      transition: all ease 0.2s;
+
+      &:hover {
+        background-color: var(--BGfooter);
+        color: var(--branco);
+      }
+    }
+
+    .btn-contato {
+      border: 0.2rem solid var(--branco);
+      color: var(--branco);
+
+      transition: all ease 0.2s;
+
+      &:hover {
+        background-color: var(--branco);
+        color: var(--BGSection);
+      }
+    }
+  }
+}
