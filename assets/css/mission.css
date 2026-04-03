@@ -1,5 +1,4 @@
 .missao {
-  height: calc(100vh - 10rem);
   .container {
     display: flex;
     flex-direction: column;
@@ -36,7 +35,7 @@
         }
 
         p {
-          font-size: 2rem;
+          font-size: 1.8rem;
         }
 
         .citacao {
